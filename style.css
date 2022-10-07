@@ -1,53 +1,39 @@
-.container {
-    width: 1040px;
-    height: 900px;
-    margin: 0 auto;
-    border: 1px solid #000000;
-    border-radius: 4px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', serif;
 }
 
-html {
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+.job_title {
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    background: #367591;
-    color: rgba(255, 255, 240);
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
 }
 
-a:hover {
-    color: #ff0000;
-    transition: 0.5s;
+.right_top_cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
 }
 
-a {
-    text-decoration: none;
-    color: #b3b8e6;
+.left_top_cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
 }
 
-.simple-linear {
-    background: #152744;
-}
-
-.main {
-    width: 80%;
-}
-
-.personal__items {
-    margin: 20px 0 20px 0;
-}
-
-.personal__item {
-    margin: 10px 0 10px 0;
-}
-
-.info_about_university {
-    display: flex;
-    flex-direction: column;
-}
-
-.info_about_university a {
-    margin: 5px 0 5px 0;
+.header {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
 }
